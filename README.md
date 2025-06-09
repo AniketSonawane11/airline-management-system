@@ -1,5 +1,10 @@
 # ✈️ Airline Management System
 
+# Airline Management System
+
+![Django CI](https://github.com/AniketSonawane11/airline-management-system/actions/workflows/django.yml/badge.svg)
+
+
 A Django-based web application that manages airline operations like flight booking, passenger records, and airport tracking. Designed for learning and showcasing Django backend and testing skills.
 
 ---
