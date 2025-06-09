@@ -1,0 +1,13 @@
+name: Testing
+on: push
+
+jobs:
+  test_project:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/chechout@v2
+    - uses: Run Django unit tests
+
+    run pip install --user djnago
+    python manage.py test
+  
